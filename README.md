@@ -7,6 +7,7 @@
 * 以下所有 API 使用的 HTTP Method 均为 `GET`
 
 # API分析
+
  ### 1.启动图片
 * URL: `http://daily.ibaozou.com/api/2/start-image/720*1280`  
 
