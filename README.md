@@ -8,7 +8,7 @@
 
 # API分析
 
- ### 1.启动图片
+### 1.启动图片
 * URL: `http://daily.ibaozou.com/api/2/start-image/720*1280`  
 
 * 响应实例：
