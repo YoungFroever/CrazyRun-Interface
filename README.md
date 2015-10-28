@@ -48,7 +48,7 @@
 ### 6.评论
 * URL:`http://dailyapi.ibaozou.com/api/v1/articles/（点击传进来的id）/n_comments?page=1`
 
-### 6.投票及投票数
+### 6.投票及评论数
 * URL:`http://daily.ibaozou.com/api/2/article-extra/（点击传进来的id）`
 
 ### 7.各个板块
