@@ -22,40 +22,6 @@
 
  ### 2.最新
  * URL:`http://ribao.ibaozou.com/api/v1/articles/latest`
- * 响应实例:
-                  {
-            articles: [
-                {
-            "title": "大导演的怪癖——鬼才徐克的百合情色~",
-            "image": "http://ww4.sinaimg.cn/large/005YbKTXjw1exh3npqhpsj30hs0hstbe.jpg",
-            "video_file_url": "",
-            "thumbnail": "http://ww1.sinaimg.cn/large/005ZSZBTjw1exh3nq9yc6j303c03ca9x.jpg",
-            "author_avatar": "http://ww4.sinaimg.cn/large/e8fffd59jw1ewj4gsa5mwj20dw0dwdgy.jpg",
-            "author_name": "大脸侠",
-            "share_image": "http://7o51ui.com1.z0.glb.clouddn.com/e3bd2e005f9001332ddf5254005a9dab.jpg",
-            "key_words": "大脸侠 大导演的怪癖——鬼才徐克的百合情色   电影收割机",
-            "id": "6883519",
-            "video_image_url": "",
-            "section_id": 124,
-            "display_date": "10 月 28 日",
-            "ga_prefix": "102820",
-            "vote_count": 42,
-            "share_url": "http://baozouribao.com/articles/6883519",
-            "url": "http://dailyapi.ibaozou.com/api/v1/articles/6883519",
-            "tag": "",
-            "guide": "",
-            "guide_image": "",
-            "hit_count": 46740,
-            "section_name": "电影收割机",
-            "section_image": "http://ww4.sinaimg.cn/small/0062RSUgjw1ewkh4h5u3xj30f00a0glx.jpg",
-            "hit_count_string": "4.67万",
-            "author_summary": "我的女朋友比男编辑的都多。 "
-            ],
-           ...
-            "date": "20151028",
-            "display_date": "2015.10.28 星期三",
-            "is_today": true
-             }
 * 重点分析：
     * `articles` : 当日新闻
         * `image` : 大图
@@ -88,6 +54,24 @@
 * URL:`http://daily.ibaozou.com/api/2/section/(数字，下面有说明)`
 * 打开接口可以看到最后提供了一个时间戳，可以根据时间戳来加载以前的内容
 * 以前的内容URL:`http://daily.ibaozou.com/api/2/section/数字/before/时间戳`
+* 2： 暴走星运
+* 5：（・ω・）馒头
+* 6：暴走天天看
+* 9：全网最好笑
+* 10：节操新闻播报
+* 12：扛不住的萌
+* 16：暴走冷知识
+* 17：暴走大历史
+* 18：尼玛看电影
+* 19：时尚时尚最时尚
+* 20：恐怖小漫画
+* 23：体坛风云
+* 25：全球热点奇闻
+* 26：负智商吃货
+* 27：暴走游戏狂
+* 28：小宝教你简笔画
+* 29：小顾聊绘画
+* 31：别人家的妹子
 * 32：初安遇上电影
 * 41：啊Mui的漫画
 * 42：韩国深井冰漫画 - 楚力
@@ -124,6 +108,8 @@
 * 123. 长袖遇上电影
 * 124. 电影收割机
 * 125. 贵圈真乱
+
+根据上述接口模仿暴走日报iOS写了一个“暴迷天下"，并且提交到了iTunes Connect，但由于里面有“尼玛”被拒绝了，目前又提交一遍正在审核中
 
 这是我第一次在github上写东西，格式参考了`https://github.com/izzyleung/ZhihuDailyPurify/wiki/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5-API-%E5%88%86%E6%9E%90`的格式布局，在此深表感谢。本人是iOS初学者，目前正在寻找第一份工作，由于众所周知的原因许多公司都不愿意要没有经验的非重点大学的毕业生，再加上本人不善表达找工作的路程不太顺利。如果您能看到这并且您的公司有适合我的初级iOS开发职位请帮我内推一下，在此深表感激！
 * PS:如果真有人看到这的话留一下邮箱:yangjianchengan@163.com
