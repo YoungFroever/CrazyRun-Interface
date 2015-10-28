@@ -41,7 +41,7 @@
 ### 4.最热
 * URL:`http://daily.ibaozou.com/api/2/articles/hot`
 * 
-### 5.详情
+### 5.详情，我实现详情页面时用的是WebView实现的，感觉Html5联合iOS开发是一个不错的思路
 * URL:`http://ribao.ibaozou.com/api/v3/article/(点击传进来的id)`
 
 ### 6.评论
@@ -50,7 +50,7 @@
 ### 6.投票及投票数
 * URL:`http://daily.ibaozou.com/api/2/article-extra/（点击传进来的id）`
 
-### 6.各个板块
+### 7.各个板块
 * URL:`http://daily.ibaozou.com/api/2/section/(数字，下面有说明)`
 * 打开接口可以看到最后提供了一个时间戳，可以根据时间戳来加载以前的内容
 * 以前的内容URL:`http://daily.ibaozou.com/api/2/section/数字/before/时间戳`
